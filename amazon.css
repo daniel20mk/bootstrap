@@ -1,0 +1,18 @@
+body{
+    background:#BDBDBD;
+}
+
+div{
+    float:right;
+    margin-right:300px;
+    text-align:center;
+    font-size:25px;
+}
+
+.par{
+    margin-left:35px;
+}
+
+.per{
+    font-size:25px;
+}

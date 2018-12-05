@@ -1,0 +1,136 @@
+#hoja,p{
+    color:#08088A;
+}
+
+.prim{
+    float:right;
+    text-align:center;
+    margin-right:310px;
+    color:#08088A;
+}
+
+img{
+    width:auto;
+    height:120px;
+}
+
+.div1{
+    float:left;
+}
+
+.div2{
+    float:right;
+    margin-right:151px;
+}
+
+.div2{
+    padding-top:18px;
+}
+
+.box1{
+    width:600px;
+    height:35px;
+}
+
+.box2{
+    width:480px;
+    height:35px;
+}
+
+.box3{
+     width:278px;
+     height:35px;
+}
+
+.box4{
+     width:314px;
+     height:35px;
+}
+
+.box5{
+     width:400px;
+     height:35px;
+}
+
+.box6{
+     width:192px;
+     height:35px;
+}
+
+.box7{
+     width:120px;
+     height:35px;
+}
+
+.box8{
+     width:350px;
+     height:45px;
+}
+
+.div3{
+    margin-top:10px;
+    float:left;
+}
+
+.box1_1{
+     width:280px;
+     height:35px;
+}
+
+.box1_2{
+    width:500px;
+    height:35px;
+}
+
+.box1_3{
+    height:35px;
+}
+
+.box1_4{
+    height:35px;
+}
+
+.box1_5{
+    width:145px;
+    height:35px;
+}
+
+.box1_6{
+    width:500px;
+    height:70px;
+}
+
+.div4{
+    float:right;
+    margin-top:10px;
+    margin-right:260px;
+}
+
+.div5{
+    clear:both;
+    padding-top:10px;
+    float:left;
+}
+
+.div6{
+    float:right;
+}
+
+#cas1{
+    padding-top:27px;
+    padding-right:20px;
+    padding-left:0px;
+}
+
+#cas2{
+    margin-right:150px;
+}
+
+.esc{
+    clear:both;
+}
+
+.cas{
+    width:550px;
+    height:25px;
+}

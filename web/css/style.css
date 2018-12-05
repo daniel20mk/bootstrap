@@ -1,0 +1,141 @@
+header {
+    height:15vh;
+    background: black;
+}
+
+/*logo*/
+
+header img {
+    height: 5vh;
+    margin-top: 5vh;
+    margin-left: 2%;
+    float: left;
+}
+
+/*nav*/
+
+header nav{
+    height: 15vh;
+    width: 50%;
+    float:right;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin-top: 5vh;
+    padding: 0;
+}
+
+header nav ul li {
+    display:inline;
+    font-size:0.7cm;
+    margin-left:15%;
+}
+
+header nav ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color:blue;
+    text-decoration: underline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 160px;
+    padding: 12px 16px;
+}
+
+.dropdown-content p {
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+main {
+    height: 85vh;
+    /*background:green;*/
+    background-image: url('../img/jagoda.jpg');
+    background-size: cover;
+    background-position:center;
+}
+
+.titulo {
+    padding-top: 10px;
+    padding-left: 3%;
+}
+
+main .contenedor {
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+}
+
+main h1 {
+    font-size: 80px;
+}
+
+main p {
+    font-size: 45px;
+}
+
+main a {
+    text-decoration: none;
+    background-color: red;
+    padding: 50px;
+    color: black;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+p {
+    color: white;
+}
+
+section{
+    height:85vh;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.card {
+    width: 28%;
+    margin-left: 1px;
+    margin-right: 1;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 2%;
+    display: inline-block;
+    background-color: #555;
+    color: #fff;
+}
+
+.card i {
+    font-size: 50px;
+    margin-left: 5%;
+}
+
+.card h4 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+footer {
+    height: 15vh;
+    background: gray;
+}

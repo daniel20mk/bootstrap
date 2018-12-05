@@ -1,0 +1,52 @@
+body{
+    background: #808080;
+}
+
+h1,p{
+    color: #FF0000;
+}
+
+@font-face{
+    font-family:Roboto-Light;
+    src: url(Roboto-Light.ttf);
+}
+
+h2{
+    font-family:Roboto-Light;
+}
+
+.colortext{
+          color: #0000FF;
+}
+
+div{
+    background:#3A1C1C;
+    width:200px;
+    height:auto;
+}
+
+img{
+    width:180px;
+    height:auto;
+    margin:auto;
+    display:block;
+}
+
+header{
+    background:#2F1B1B;
+    border-radius:5px;
+}
+
+article{
+    background:#898686;
+}
+
+footer,.copy{
+    background:#000000;
+    color:#FFFFFF;
+    border-radius:5px;
+}
+
+.copy{
+    margin-left:5px;
+}

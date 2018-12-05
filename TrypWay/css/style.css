@@ -1,0 +1,394 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #3e3e3e;
+}
+
+/* parte inicial del header */
+
+.primer_caja {
+    height: 40px;
+    background-color: #5031a4;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+
+.info {
+    float: left;
+    margin-right: 20px;
+    padding-top : 10px;
+}
+
+a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+i {
+    color: white;
+}
+
+.redes_sociales {
+    float: right;
+    margin-right: 25px;
+    padding-top: 10px;
+
+}
+
+/* fin de la parte inicial */
+
+/* segunda parte del header */
+
+.segunda_caja {
+    height: 90px;
+    background-color: #653eb3;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.logo {
+    float: left;
+    padding-top: 10px;
+}
+
+.navegador {
+    float: right;
+    padding-top: 35px;
+}
+
+.navegador a {
+    margin-right: 30px;
+}
+
+/* fin de la segunda parte del header */
+
+/* seccion de imagenes*/
+
+.img_principal {
+    height: 550px;
+    background-image: url("../images/puente.png");
+    background-size: cover;
+    background-position: center bottom;
+}
+
+/* fin seccion de imagenes*/
+
+/* seccion de primera informacion */
+
+#primera_informacion {
+    height: 150px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido1 {
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+#text_sanfrancisco {
+    font-size: 20px;
+}
+
+#boton1 {
+    background-color: #fb4381;
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: white
+}
+
+/* fin seccion de primera informacion */
+
+/* seccion con una sola informacion centrada */
+
+hr {
+    clear: both;
+    color: #e1e1e1;
+    background-color: #e1e1e1;
+    height: 1px;
+    border-width: 0;
+    margin: 0;
+}
+
+.info_unica {
+    height: 200px;
+    background-color: #fafafa;
+}
+
+.info_unica {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenido2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* fin seccion con una sola informacion centrada */
+
+/* seccion info multiple */
+
+.multiple {
+    height: 250px;
+    background-color: #fafafa;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.info_mul {
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.info_mul i {
+    color: #fb4381;
+    font-size: 30px;
+}
+
+.fa-rotate-330 {
+    -webkit-transform:rotate(330deg);
+}
+
+/* fin de seccion info multiple */
+
+/* seccion contactanos */
+
+.contactanos {
+    height: 90px;
+    background-color: #653eb3;
+}
+
+.info_cont {
+    float: left;
+    margin-top: 13px;
+    margin-left: 70px;
+    color: white;
+    font-size: 20px;
+}
+
+.boton2 {
+    float: right;
+    margin-top: 19px;
+    margin-right: 80px;
+    color: white;
+    background-color: #fb4381;
+    padding: 1px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* fin seccion contactanos */
+
+/* seccion solo titulo */
+
+.titulo_cajas {
+    height: 90px;
+    background-color: #fafafa;
+}
+
+.titulo {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 70px;
+}
+
+/* fin seccion solo titulo */
+
+/* seccion sitios y precios */
+
+#sitios {
+    height: 450px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sitio {
+    float: left;
+    width: 350px;
+    height: 430px;
+    border: 1px solid #ffffff;
+    margin-right: 20px;
+    background-color: #ffffff;
+}
+
+.sitio img {
+    width: 350px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.precio {
+    color : #653eb3;
+}
+
+.sitio .information {
+    width: 335px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.botones {
+    float: left;
+    padding: 0 20px;
+    background-color: #fb4381;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+/*seccion sitos 2*/
+
+#sitios2 {
+    height: 450px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+/* fin seccion sitios y precios */
+
+/* parte de sucribete */
+
+#sucribete {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentp {
+    font-size: 25px;
+}
+
+.correo {
+    width: 300px;
+    border: none;
+    box-shadow: 0 1px #e1e1e1 ;
+    padding: 10px;
+}
+
+.enviar {
+    border: 2px solid #e1e1e1;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fb4381;
+    font-weight: bold;
+}
+/* fin parte de sucribete */
+
+/* seccion testimonios */
+
+.titulo_test {
+    height: 150px;
+    background-color: #fafafa;
+    font-size: 20px;
+}
+
+.title_test {
+    padding-top: 70px;
+    padding-left: 70px;
+}
+
+#testimonios {
+    height: 500px;
+    background-color: #fafafa;
+}
+
+.columna1 {
+    width: 545px;
+    height: 400px;
+    float: left;
+    margin-left: 75px;
+}
+
+.columna2 {
+    width: 545px;
+    height: 400px;
+    float: right;
+    margin-right: 75px;
+}
+
+.tarjetas_op {
+    width: 515px;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}
+
+.opiniones img {
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 0;
+    border-radius: 100%;
+}
+
+.opiniones hr {
+    width: 420px;
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.opiniones b {
+    margin-left: 100px;
+}
+
+
+/* footer */
+
+#final {
+    height: 100px;
+    background-color: #653eb3;
+    padding-right: 70px;
+}
+
+#nav_final {
+    float: left;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+#redes_final {
+    margin-top: 30px;
+}
+
+#ultima_parte {
+    height: 100px;
+    background-color: #653eb3;
+}
+
+#ultima_parte hr {
+    width: 1070px;
+    margin-left: 90px;
+}
+
+.info_final {
+    clear: both;
+    margin-top: 40px;
+    margin-left: 90px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+/* fin del footer */

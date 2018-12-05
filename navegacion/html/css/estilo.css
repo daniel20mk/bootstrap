@@ -1,0 +1,66 @@
+body{
+    background-color:#E6E6E6;
+    font-family: 'Ubuntu', sans-serif;
+    color:#424242;
+}
+
+nav{
+    background-color: rgb(50, 154, 50);
+    width:100%;
+    height:33px;
+}
+
+nav{
+    padding-left:10px;
+    padding-top:10px;
+
+}
+
+a{
+    font-size:19px;
+    color:rgb(255,255,255);
+    padding:10px;
+    text-decoration:none;
+}
+
+a:hover{
+    background-color: hsl(210, 51%, 40%);
+    text-decoration:underline;
+}
+
+.title{
+    font-size:20px;
+}
+
+/*hoja informacion de Buildawow*/
+
+#imagen{
+    float:right;
+    margin-right:80px;
+    padding-left:10px;
+}
+
+/*fin de la hoja*/
+
+/*hoja librerias*/
+
+#libreria{
+    width:70%;
+}
+
+/*fin de la hoja*/
+
+/*hoja contacto*/
+
+.casilla{
+    width:300px;
+    height:25px;
+}
+
+.boton{
+    margin-left:176px;
+    width:150px;
+    height:30px;
+}
+
+/*fin de la hoja*/

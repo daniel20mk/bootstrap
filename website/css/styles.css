@@ -1,0 +1,59 @@
+:root {
+    --buildawow-blue: #002EAC;
+    --buildawow-red: #FF3750;
+    --buildawow-grey: #30302E;
+  }
+
+body {
+    font-family: monospace;
+    /*color: rgb(255,255,255);*/
+    color: #FF0;
+    background: var(--buildawow-red, yellow);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 2.5em;
+    font-family: 'Montserrat';
+}
+h2 {
+    font-weight: 100;
+    color: var(--buildawow-grey);
+}
+
+.blue-text {
+    color: blue;
+}
+
+#amarillo {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.big-text {
+    font-size: 25px;
+    color: var(--buildawow-red);
+}
+
+.orange {
+    background-color: orange;
+}
+
+img {
+    margin-left: -50px;
+}
+img:hover {
+    margin-left: -5px;
+}
+
+.small-image {
+    width: 100px;
+}
+
+.green-border {
+    border: 3px dotted green;
+    border-radius: 50%;
+}
